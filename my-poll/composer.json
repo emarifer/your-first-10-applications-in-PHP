@@ -1,0 +1,21 @@
+{
+    "name": "apps/my-poll",
+    "description": "application to create polls",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\MyPoll\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.5@dev"
+    }
+}

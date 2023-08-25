@@ -1,0 +1,21 @@
+{
+    "name": "apps/comments",
+    "description": "Application to create a comment component on any page of a website",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\Comments\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.5@dev"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "apps/validator",
+    "description": "Simple form and data validator",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

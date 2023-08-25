@@ -1,0 +1,21 @@
+{
+    "name": "apps/blog",
+    "description": "Simple blog made using posts with markdown",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "league/commonmark": "^2.5@dev"
+    }
+}

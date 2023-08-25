@@ -1,0 +1,21 @@
+{
+    "name": "apps/suggestions",
+    "description": "Finder app with suggestions",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\Suggestions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.5@dev"
+    }
+}

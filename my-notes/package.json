@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "watch-css": "npx tailwindcss -i src/views/resources/input.css -o src/views/resources/output.css --watch",
+    "build-css-prod": "npx tailwindcss -i src/views/resources/input.css -o src/views/resources/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "apps/gallery",
+    "description": "Application to upload image files and display them",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apps\\Gallery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrique Marín",
+            "email": "enriquemarin_sierra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "2.7.2"
+    }
+}
